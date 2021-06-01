@@ -8,8 +8,7 @@
 
 > CLI to generate types based on your [Strapi](https://strapi.io) API content types.
 
-- [✨ &nbsp;Release Notes](https://github.com/stun3r/strapi-sdk-js/releases)
-- [📖 &nbsp;Read the documentation](https://strapi-sdk-js.netlify.app)
+- [✨ &nbsp;Release Notes](https://github.com/stun3r/strapi-generate-types/releases)
 
 ## Features
 
