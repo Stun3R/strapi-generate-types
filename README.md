@@ -38,7 +38,7 @@ In order to use this generator you must have installed the GraphQL plugin **on y
 yarn strapi install graphql
 ```
 
-For more informations about see the [GraphQL plugin](https://strapi.io/documentation/developer-docs/latest/development/plugins/graphql.html) 
+For more informations see the [GraphQL plugin](https://strapi.io/documentation/developer-docs/latest/development/plugins/graphql.html) 
 
 ### 🕹 Usage
 
