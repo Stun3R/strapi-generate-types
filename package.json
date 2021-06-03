@@ -1,6 +1,6 @@
 {
   "name": "strapi-generate-types",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "CLI to generate types based on your Strapi API content types",
   "keywords": [
     "strapi",

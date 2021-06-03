@@ -1,3 +1,10 @@
+# 0.1.0 (2021-06-03)
+
+
+### Features
+
+* add prompt & generator ([1dfc19d](https://github.com/Stun3R/strapi-generate-types/commit/1dfc19d49373595543d41a2cc65bd4b077fe1fe8))
+
 ## [0.1.2](https://github.com/Stun3R/strapi-generate-types/compare/v0.1.1...v0.1.2) (2021-06-01)
 
 ## [0.1.1](https://github.com/Stun3R/strapi-generate-types/compare/v0.1.0...v0.1.1) (2021-06-01)
