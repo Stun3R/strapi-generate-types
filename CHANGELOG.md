@@ -1,3 +1,5 @@
+## [0.1.1](https://github.com/Stun3R/strapi-generate-types/compare/v0.1.0...v0.1.1) (2021-06-04)
+
 # 0.1.0 (2021-06-03)
 
 
