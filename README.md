@@ -41,6 +41,14 @@ For more informations see the [GraphQL plugin](https://strapi.io/documentation/d
 
 ### 🕹 Usage
 
+```bash
+yarn strapi-generate-types generate
+```
+OR
+```bash
+npx strapi-generate-types generate
+```
+
 The prompt will ask you 3 things:
 
 1. First, the host of your Strapi API with which you want to generate your types (default: `http://localhost:1337`).
