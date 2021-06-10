@@ -1,3 +1,10 @@
+## [0.1.2](https://github.com/Stun3R/strapi-generate-types/compare/v0.1.1...v0.1.2) (2021-06-10)
+
+
+### Bug Fixes
+
+* **bin:** mispelled pkg executable name ([7c0184b](https://github.com/Stun3R/strapi-generate-types/commit/7c0184b9dced9e97850889a0d7de87a543c183c0)), closes [#6](https://github.com/Stun3R/strapi-generate-types/issues/6)
+
 ## [0.1.1](https://github.com/Stun3R/strapi-generate-types/compare/v0.1.0...v0.1.1) (2021-06-04)
 
 # 0.1.0 (2021-06-03)
