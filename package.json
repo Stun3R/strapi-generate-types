@@ -30,7 +30,7 @@
     }
   ],
   "bin": {
-    "strapi-generate-type": "bin/cli.js"
+    "strapi-generate-types": "bin/cli.js"
   },
   "files": [
     "./bin"
