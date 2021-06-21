@@ -1,3 +1,11 @@
+## [0.1.3](https://github.com/Stun3R/strapi-generate-types/compare/v0.1.2...v0.1.3) (2021-06-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @graphql-codegen/typescript to v1.22.2 ([1eb5811](https://github.com/Stun3R/strapi-generate-types/commit/1eb5811de23d5b964be5f1ed7312a552dc06ca5c))
+* **deps:** update dependency graphql to v15.5.1 ([2b12d37](https://github.com/Stun3R/strapi-generate-types/commit/2b12d37d583e3347532973b21aea37e313282f5f))
+
 ## [0.1.2](https://github.com/Stun3R/strapi-generate-types/compare/v0.1.1...v0.1.2) (2021-06-10)
 
 
