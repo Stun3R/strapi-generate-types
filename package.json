@@ -33,7 +33,7 @@
     "strapi-generate-types": "bin/cli.js"
   },
   "files": [
-    "./bin"
+    "bin"
   ],
   "scripts": {
     "start": "siroc build --watch",
@@ -42,7 +42,8 @@
     "lint": "eslint . --ext .ts,.js",
     "lint:fix": "eslint . --ext .ts,.js --fix",
     "commit": "git-cz",
-    "release": "dotenv release-it --"
+    "release": "dotenv release-it --",
+    "prepare": "siroc build"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": "eslint --cache --fix"
