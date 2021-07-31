@@ -60,7 +60,7 @@
     "@graphql-tools/url-loader": "6.10.1",
     "@types/fs-extra": "9.0.12",
     "chalk": "4.1.1",
-    "commander": "8.0.0",
+    "commander": "8.1.0",
     "enquirer": "2.3.6",
     "fs-extra": "10.0.0",
     "graphql": "15.5.1"
