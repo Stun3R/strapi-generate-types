@@ -66,8 +66,8 @@
     "graphql": "15.5.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "12.1.4",
-    "@commitlint/config-conventional": "12.1.4",
+    "@commitlint/cli": "13.1.0",
+    "@commitlint/config-conventional": "13.1.0",
     "@release-it/conventional-changelog": "3.0.1",
     "@typescript-eslint/eslint-plugin": "4.29.0",
     "@typescript-eslint/parser": "4.29.0",
