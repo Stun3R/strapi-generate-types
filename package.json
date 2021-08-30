@@ -56,8 +56,8 @@
   "dependencies": {
     "@graphql-codegen/core": "1.17.10",
     "@graphql-codegen/typescript": "1.23.0",
-    "@graphql-tools/load": "7.0.1",
-    "@graphql-tools/url-loader": "7.0.3",
+    "@graphql-tools/load": "7.1.9",
+    "@graphql-tools/url-loader": "7.0.12",
     "@types/fs-extra": "9.0.12",
     "chalk": "4.1.2",
     "commander": "8.1.0",
