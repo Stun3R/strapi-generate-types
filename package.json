@@ -58,7 +58,7 @@
     "@graphql-codegen/typescript": "2.1.2",
     "@graphql-tools/load": "7.1.9",
     "@graphql-tools/url-loader": "7.0.12",
-    "@types/fs-extra": "9.0.12",
+    "@types/fs-extra": "9.0.13",
     "chalk": "4.1.2",
     "commander": "8.1.0",
     "enquirer": "2.3.6",
