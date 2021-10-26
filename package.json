@@ -76,7 +76,7 @@
     "dotenv-cli": "4.0.0",
     "eslint": "7.32.0",
     "husky": "7.0.2",
-    "lint-staged": "11.1.2",
+    "lint-staged": "11.2.6",
     "npm-run-all": "4.1.5",
     "release-it": "14.11.5",
     "siroc": "0.16.0",
