@@ -1,3 +1,4 @@
+import { quickGen } from './commands/quick';
 import { Command } from "commander";
 
 import { generateTypes } from "./commands/generate";
@@ -24,5 +25,16 @@ program
   .action(async () => {
     await generateTypes();
   });
+
+program
+  .command("quickgen")
+  .description("quickly generate Typescript types based on your GraphQL Schema using Arguments instead of manual prompts. Useful for use in npm scripts.")
+  .argument('<url>', "Your Strapi URL")
+  .option('-p, --path <location>', 'File path where you want to save the generated types', './models/')
+  .option('-n, --file-name <filename>', 'File name of the generated types', 'types.ts')
+  .action(async (url, options) => {
+    await quickGen(url, options.path, options.fileName);
+  });
+
 
 program.parse(process.argv);
