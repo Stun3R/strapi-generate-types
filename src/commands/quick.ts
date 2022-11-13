@@ -13,7 +13,7 @@ import { blue, green } from "chalk";
 
 // Codegen core.
 import { codegen } from "@graphql-codegen/core";
-import { Types } from "@graphql-codegen/plugin-helpers/types";
+import { Types } from "@graphql-codegen/plugin-helpers";
 
 // GraphQL Dependencies in order to use Codegen.
 import * as typescriptPlugin from "@graphql-codegen/typescript";
@@ -34,9 +34,12 @@ export interface GenerateOptions {
  * Generate Typescript types based on your GraphQL Schema.
  */
 
-export const quickGen = async (url: string, dir: string, name: string): Promise<void> => {
+export const quickGen = async (
+  url: string,
+  dir: string,
+  name: string
+): Promise<void> => {
   try {
-
     // Build initial scope.
     const scope = {
       host: url,
@@ -47,7 +50,11 @@ export const quickGen = async (url: string, dir: string, name: string): Promise<
     /* remove "/" from scope.host in case it exists */
     scope.host = scope.host.replace(/\/$/, "");
 
-    console.log(`${blue("Info")}: Generating types from GraphQL at ${green(scope.host + "/graphql")}.`);
+    console.log(
+      `${blue("Info")}: Generating types from GraphQL at ${green(
+        scope.host + "/graphql"
+      )}.`
+    );
 
     // Load schema from Strapi API
     const schema: GraphQLSchema = await loadSchema(`${scope.host}/graphql`, {
@@ -80,7 +87,9 @@ export const quickGen = async (url: string, dir: string, name: string): Promise<
     await outputFile(scope.filePath, output);
 
     // Log the success.
-    console.log(`${blue("Info")}: Generated your types at ${green(scope.filePath)}.`);
+    console.log(
+      `${blue("Info")}: Generated your types at ${green(scope.filePath)}.`
+    );
     process.exit(0);
   } catch (error) {
     console.error(error);
