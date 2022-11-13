@@ -16,7 +16,7 @@ import { prompt } from "enquirer";
 
 // Codegen core.
 import { codegen } from "@graphql-codegen/core";
-import { Types } from "@graphql-codegen/plugin-helpers/types";
+import { Types } from "@graphql-codegen/plugin-helpers";
 
 // GraphQL Dependencies in order to use Codegen.
 import * as typescriptPlugin from "@graphql-codegen/typescript";
