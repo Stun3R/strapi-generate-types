@@ -37,14 +37,16 @@ In order to use this generator you must have installed the GraphQL plugin **on y
 yarn strapi install graphql
 ```
 
-For more informations see the [GraphQL plugin](https://strapi.io/documentation/developer-docs/latest/development/plugins/graphql.html) 
+For more informations see the [GraphQL plugin](https://strapi.io/documentation/developer-docs/latest/development/plugins/graphql.html)
 
 ### 🕹 Usage
 
 ```bash
 yarn strapi-generate-types generate
 ```
+
 OR
+
 ```bash
 npx strapi-generate-types generate
 ```
@@ -57,16 +59,21 @@ The prompt will ask you 3 things:
 
 Enjoy 🎉
 
+_If you don't want to use the prompt everytime you run the generator, you can use the `quickgen`:_
+
+```bash
+yarn|npx strapi quickgen <url> [-p, --path <location>, default: "./models/"] [-n, --file-name <filename>, default: "types.ts"]
+```
+
 ## License
 
 [MIT License](./LICENSE)
 
 <!-- Badges -->
+
 [npm-version-src]: https://img.shields.io/npm/v/strapi-generate-types/latest.svg?style=flat-square
 [npm-version-href]: https://npmjs.com/package/strapi-generate-types
-
 [npm-downloads-src]: https://img.shields.io/npm/dt/strapi-generate-types.svg?style=flat-square
 [npm-downloads-href]: https://npmjs.com/package/strapi-generate-types
-
 [license-src]: https://img.shields.io/npm/l/strapi-generate-types.svg?style=flat-square
 [license-href]: ./LICENSE
