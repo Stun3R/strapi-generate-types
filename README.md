@@ -62,7 +62,7 @@ Enjoy 🎉
 _If you don't want to use the prompt everytime you run the generator, you can use the `quickgen`:_
 
 ```bash
-yarn|npx strapi quickgen <url> [-p, --path <location>, default: "./models/"] [-n, --file-name <filename>, default: "types.ts"]
+yarn|npx strapi-generate-types quickgen <url> [-p, --path <location>, default: "./models/"] [-n, --file-name <filename>, default: "types.ts"]
 ```
 
 ## License
